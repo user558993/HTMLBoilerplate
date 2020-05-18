@@ -1,3 +1,3 @@
 # HTML Boilerplate
 
-*** Including Fontawesome, Bootstrap and jQuery ***
+**Including Fontawesome, Bootstrap and jQuery**

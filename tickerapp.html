@@ -23,10 +23,20 @@
 
 </head>
 <body>
+<div class="hide">
+<table class="table table-bordered">
+<tr><th>ticker</th><th>price</th><th>date</th></tr>
 
+</table>
+</div>
 </body>
 <script>
 $(function(){
+console.log("works");
+let last_price = 0;
+$.getJSON("https://micro-learning.fun/wsgi/stock/4998",function(data){
+console.log(data);
+});
 });
 </script>
 </html>

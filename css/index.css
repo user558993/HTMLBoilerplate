@@ -1,0 +1,53 @@
+@-webkit-keyframes altrclr-red-green{
+    0%{
+      color:red;
+    }
+    50%{
+      color:green;
+    }
+  }
+
+  @-webkit-keyframes altrclr-black-red-black{
+    0%{
+      color:black;
+    }
+    50%{
+      color:red;
+    }
+    100%{
+        color:black;
+    }
+  }
+  @-webkit-keyframes altrclr-black-green-black{
+    0%{
+      color:black;
+    }
+    50%{
+      color:green;
+    }
+    100%{
+        color:black;
+    }
+  }
+  
+  #a{
+    margin:40%;
+    font-size:20px;
+    color:red;
+    -webkit-animation: altrclr-red-green 3s infinite alternate;  
+    -webkit-transform:scale(4);
+  }
+  #a2{
+    margin:40%;
+    font-size:20px;
+    color:black;
+    -webkit-animation: altrclr-black-red-black 2s infinite alternate;  
+    -webkit-transform:scale(4);
+  }
+  #a3{
+    margin:40%;
+    font-size:20px;
+    color:black;
+    -webkit-animation: altrclr-black-green-black 1s infinite alternate;  
+    -webkit-transform:scale(4);
+  }
